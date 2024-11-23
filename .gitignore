@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+.idea
+ParameterDictionary.sln.DotSettings.user
+**/.DS_Store
