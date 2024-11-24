@@ -2,6 +2,15 @@
 
 A source generator for generating dictionaries based on enum values.
 
+## Installation
+
+```sh
+dotnet add package ParameterDictionary
+dotnet add package ParameterDictionary.Abstract
+```
+
+## Usage
+
 ```c#
 [InParameterDictionary]
 public enum Rgb
