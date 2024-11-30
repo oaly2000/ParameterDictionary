@@ -8,7 +8,7 @@
   </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="../ParameterDictionary.Generators/ParameterDictionary.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+        <ProjectReference Include="../ParameterDictionary/ParameterDictionary.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
         <ProjectReference Include="../ParameterDictionary.Abstract/ParameterDictionary.Abstract.csproj" />
     </ItemGroup>
 

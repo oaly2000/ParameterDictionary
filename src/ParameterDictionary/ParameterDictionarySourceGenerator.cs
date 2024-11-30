@@ -9,7 +9,7 @@ using Microsoft.CodeAnalysis.Text;
 namespace ParameterDictionary;
 
 [Generator]
-public class ParameterDictionaryIncrementalSourceGenerator : IIncrementalGenerator
+public class ParameterDictionarySourceGenerator : IIncrementalGenerator
 {
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {
@@ -21,7 +21,7 @@ public class ParameterDictionaryIncrementalSourceGenerator : IIncrementalGenerat
             .Select((t, _) => t.Item1);
 
         context.RegisterSourceOutput(context.CompilationProvider.Combine(provider.Collect()),
-            ((ctx, t) => GenerateCode(ctx, t.Left, t.Right)));
+            (ctx, t) => GenerateCode(ctx, t.Left, t.Right));
     }
 
     private static (EnumDeclarationSyntax, bool reportAttributeFound) GetEnumDeclarationForSourceGen(

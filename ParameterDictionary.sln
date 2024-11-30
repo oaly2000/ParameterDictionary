@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # 
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterDictionary.Generators", "src\ParameterDictionary.Generators\ParameterDictionary.Generators.csproj", "{5FC22DE3-C46D-4AFF-B84E-955BCD64CDD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterDictionary", "src\ParameterDictionary\ParameterDictionary.csproj", "{5FC22DE3-C46D-4AFF-B84E-955BCD64CDD9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterDictionary.Sample", "src\ParameterDictionary.Sample\ParameterDictionary.Sample.csproj", "{D9854455-5FB6-4A75-89DC-61712EA9AE3D}"
 EndProject
